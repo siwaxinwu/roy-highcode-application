@@ -22,7 +22,27 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd0f8999-367f-4d52-a20a-c7fa27075282" name="Default Changelist" comment="代码演练" />
+    <list default="true" id="dd0f8999-367f-4d52-a20a-c7fa27075282" name="Default Changelist" comment="代码演练">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_30_1_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CPUUtilizationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/callback/TaskCallable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/callback/TaskCallableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/callback/TaskExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/callback/TaskHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/callback/TaskResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadpool/MyThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadpool/TestThreadPoolExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roy-highcode-application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/roy-highcode-application.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,6 +90,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
@@ -96,7 +117,7 @@
       <recent name="D:\idea-code-repo-learn\roy-designmode\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MakeTeaExample1">
+  <component name="RunManager" selected="Application.TaskCallableTest">
     <configuration name="FutureAndCallableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="futuretest.FutureAndCallableExample" />
       <module name="roy-highcode-application" />
@@ -123,34 +144,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestExchanger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestExchanger" />
+    <configuration name="MyThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadpool.MyThreadPool" />
       <module name="roy-highcode-application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threadpool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="seqthread.ThreadDemo1" />
+    <configuration name="TaskCallableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="callback.TaskCallableTest" />
       <module name="roy-highcode-application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="callback.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="seqthread.ThreadDemo2" />
+    <configuration name="TestThreadPoolExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadpool.TestThreadPoolExecutor" />
       <module name="roy-highcode-application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threadpool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TaskCallableTest" />
+        <item itemvalue="Application.TestThreadPoolExecutor" />
+        <item itemvalue="Application.MyThreadPool" />
         <item itemvalue="Application.MakeTeaExample1" />
         <item itemvalue="Application.FutureAndCallableExample" />
-        <item itemvalue="Application.TestExchanger" />
-        <item itemvalue="Application.ThreadDemo1" />
-        <item itemvalue="Application.ThreadDemo2" />
       </list>
     </recent_temporary>
   </component>
@@ -170,6 +209,9 @@
       <workItem from="1629442314953" duration="9904000" />
       <workItem from="1629551213322" duration="497000" />
       <workItem from="1629551794392" duration="107000" />
+      <workItem from="1629552181953" duration="3141000" />
+      <workItem from="1629760482493" duration="9730000" />
+      <workItem from="1629967903056" duration="1529000" />
     </task>
     <task id="LOCAL-00001" summary="代码演练">
       <created>1629549734415</created>
@@ -215,26 +257,50 @@
     <option name="LAST_COMMIT_MESSAGE" value="代码演练" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1629248328774">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1629763591483">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1629248328774" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1629551184141">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1629763591483" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1629760540361">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1629551184141" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1629551184141">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1629760540361" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1629852287277">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1629551184141" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1629551184141">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1629852287277" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1629852287277">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1629551184141" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1629551184141">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1629852287277" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1629852287277">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1629551184141" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1629852287277" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1629852287277">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1629852287277" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1629852287277">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1629852287277" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1629852287277">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1629852287277" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1629852287277">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1629852287277" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1629852287277">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1629852287277" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1629848267172">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1629848267172" />
     <state x="595" y="280" key="MultipleFileMergeDialog" timestamp="1629551127658">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -243,22 +309,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1629551633550" />
-    <state x="681" y="261" width="540" height="524" key="StructurePopup" timestamp="1629537120500">
+    <state x="681" y="261" width="564" height="524" key="StructurePopup" timestamp="1629851097095">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="681" y="261" width="540" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1629537120500" />
+    <state x="681" y="261" width="564" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1629851097095" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1629551898491">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1629551898491" />
+    <state x="662" y="252" width="596" height="536" key="find.popup" timestamp="1629808267819">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="662" y="252" width="596" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1629808267819" />
     <state x="643" y="307" key="git4idea.merge.GitPullDialog" timestamp="1629551115086">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="643" y="307" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1629551115086" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1629536347217">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1629786292470">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1629536347217" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1629786292470" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -272,6 +342,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/TestCompletableFuture.java</url>
           <line>23</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/threadpool/MyThreadPool.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
