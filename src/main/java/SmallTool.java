@@ -24,4 +24,6 @@ public class SmallTool {
             .toString();
     System.out.println(result);
   }
+
+
 }
