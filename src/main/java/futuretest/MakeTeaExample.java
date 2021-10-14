@@ -1,6 +1,7 @@
 package futuretest;
 
 import java.util.concurrent.*;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * @author dingyawu
@@ -11,7 +12,6 @@ public class MakeTeaExample {
 
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         ExecutorService executorService = Executors.newFixedThreadPool(2);
-
         // 创建线程1的FutureTask
         FutureTask<String> ft1 = new FutureTask<String>(new T1Task());
         // 创建线程2的FutureTask
