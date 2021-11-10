@@ -23,8 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd0f8999-367f-4d52-a20a-c7fa27075282" name="Default Changelist" comment="代码演练">
+      <change afterPath="$PROJECT_DIR$/src/main/java/atomicreference/BankCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atomicreference/BankCardARTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atomicreference/BankCardSyncTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atomicreference/BankCardTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juc/DBPoolSemaphore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juc/MySqlConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juc/SleepTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juc/UseExchange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juc/UseSemaphore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/futuretest/MakeTeaExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/futuretest/MakeTeaExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,13 +115,13 @@
       <recent name="abstractfactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MustDeadLockDemo">
-    <configuration name="MustDeadLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="deadLockDemo.MustDeadLockDemo" />
+  <component name="RunManager" selected="Application.UseSemaphore">
+    <configuration name="BankCardARTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="atomicreference.BankCardARTest2" />
       <module name="roy-highcode-application" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="deadLockDemo.*" />
+          <option name="PATTERN" value="atomicreference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,72 +129,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCompletableFuture.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BankCardSyncTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="atomicreference.BankCardSyncTest1" />
       <module name="roy-highcode-application" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="completabletest.*" />
+          <option name="PATTERN" value="atomicreference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="completabletest" />
-      <option name="MAIN_CLASS_NAME" value="completabletest.TestCompletableFuture" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCompletableFuture.test4" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BankCardTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="atomicreference.BankCardTest" />
       <module name="roy-highcode-application" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="completabletest.*" />
+          <option name="PATTERN" value="atomicreference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="completabletest" />
-      <option name="MAIN_CLASS_NAME" value="completabletest.TestCompletableFuture" />
-      <option name="METHOD_NAME" value="test4" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCompletableFuture.test5" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UseExchange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="juc.UseExchange" />
       <module name="roy-highcode-application" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="completabletest.*" />
+          <option name="PATTERN" value="juc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="completabletest" />
-      <option name="MAIN_CLASS_NAME" value="completabletest.TestCompletableFuture" />
-      <option name="METHOD_NAME" value="test5" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCompletableFuture.test6" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UseSemaphore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="juc.UseSemaphore" />
       <module name="roy-highcode-application" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="completabletest.*" />
+          <option name="PATTERN" value="juc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="completabletest" />
-      <option name="MAIN_CLASS_NAME" value="completabletest.TestCompletableFuture" />
-      <option name="METHOD_NAME" value="test6" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -194,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MustDeadLockDemo" />
-        <item itemvalue="TestNG.TestCompletableFuture.test6" />
-        <item itemvalue="TestNG.TestCompletableFuture.test5" />
-        <item itemvalue="TestNG.TestCompletableFuture.test4" />
-        <item itemvalue="TestNG.TestCompletableFuture.test2" />
+        <item itemvalue="Application.UseSemaphore" />
+        <item itemvalue="Application.UseExchange" />
+        <item itemvalue="Application.BankCardARTest2" />
+        <item itemvalue="Application.BankCardSyncTest1" />
+        <item itemvalue="Application.BankCardTest" />
       </list>
     </recent_temporary>
   </component>
@@ -225,6 +227,7 @@
       <workItem from="1631973245962" duration="622000" />
       <workItem from="1632578957749" duration="6767000" />
       <workItem from="1633266595993" duration="3913000" />
+      <workItem from="1634221699890" duration="3340000" />
     </task>
     <task id="LOCAL-00001" summary="代码演练">
       <created>1629549734415</created>
@@ -254,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633301479886</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="代码演练">
+      <created>1634221720462</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1634221720462</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
