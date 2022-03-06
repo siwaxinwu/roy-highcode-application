@@ -1,7 +1,9 @@
+package completabletest.test;
+
 import java.util.concurrent.CompletableFuture;
 
 /**
- * applyToEither的作用是上个任务和这个任务一起运行，哪个先运行完成，就把哪个任务交给Function
+ * exceptionally的使用
  *
  * @author dingyawu
  * @version 1.0

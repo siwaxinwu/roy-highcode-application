@@ -1,3 +1,5 @@
+package completabletest.test;
+
 import java.util.concurrent.CompletableFuture;
 
 /**

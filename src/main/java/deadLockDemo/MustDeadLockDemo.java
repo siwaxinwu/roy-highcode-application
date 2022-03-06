@@ -1,7 +1,7 @@
 package deadLockDemo;
 
 /**
- * @description:
+ * @description: 死锁demo
  * @author: Ding Yawu
  * @create: 2021-10-03 21:10
  */

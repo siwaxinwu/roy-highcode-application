@@ -23,17 +23,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd0f8999-367f-4d52-a20a-c7fa27075282" name="Default Changelist" comment="代码演练">
-      <change afterPath="$PROJECT_DIR$/src/main/java/atomicreference/BankCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atomicreference/BankCardARTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atomicreference/BankCardSyncTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atomicreference/BankCardTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juc/DBPoolSemaphore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juc/MySqlConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juc/SleepTools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juc/UseExchange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juc/UseSemaphore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RedPacketTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atomicreference/AtomicIntegerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/callback/CopyOnWriteArraylistTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/callback/ReentrantReadWriteLockTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/callback/TestCallable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/completabletest/test/TestCompletableFuture2_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/countdownlatch/Testharness.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cyclibarrier/TestCycliBarrier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cyclibarrier/UseCyclicBarrier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juc/SemaphereExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juc/blockqueue/BlockQueueTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juc/blockqueue/BlockQueueTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juc/blockqueue/ReentrantLockCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juc/blockqueue/WaitNotify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juc/fibonacci/FiboNacciTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juc/fibonacci/FiboNacciTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juc/fibonacci/FibonacciTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juc/fibonacci/ForkJoinTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juc/fibonacci/SumTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juc/testStop/TestInterrupt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadpool/GetThreadResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadpool/TestSchedulePool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SmallTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/completabletest/test/SmallTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestCompletableFuture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/completabletest/test/TestCompletableFuture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestCompletableFuture1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/completabletest/test/TestCompletableFuture1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestCompletableFuture2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/completabletest/test/TestCompletableFuture2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestCompletableFuture3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/completabletest/test/TestCompletableFuture3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestCompletableFuture4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/completabletest/test/TestCompletableFuture4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestCompletableFuture5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/completabletest/test/TestCompletableFuture5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/deadLockDemo/MustDeadLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/deadLockDemo/MustDeadLockDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +84,13 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/src.zip!/java/util/concurrent/Executor.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantReadWriteLock.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/src.zip!/java/util/concurrent/TimeUnit.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/../../ximawork/mavenrepo/org/springframework/data/spring-data-redis/1.3.6.RELEASE/spring-data-redis-1.3.6.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -98,11 +126,15 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
+  </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/completabletest" />
       <recent name="D:\idea-code-repo-learn\roy-designmode\src\main\java\singleton" />
       <recent name="D:\idea-code-repo-learn\roy-designmode\src\main\java" />
     </key>
@@ -110,18 +142,20 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="completabletest.test" />
       <recent name="" />
+      <recent name="juc" />
+      <recent name="juc.blockqueue" />
       <recent name="facade" />
-      <recent name="abstractfactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UseSemaphore">
-    <configuration name="BankCardARTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="atomicreference.BankCardARTest2" />
+  <component name="RunManager" selected="Application.TestInterrupt">
+    <configuration name="ReentrantReadWriteLockTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="callback.ReentrantReadWriteLockTest1" />
       <module name="roy-highcode-application" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="atomicreference.*" />
+          <option name="PATTERN" value="callback.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankCardSyncTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="atomicreference.BankCardSyncTest1" />
+    <configuration name="TestCompletableFuture3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="completabletest.test.TestCompletableFuture3" />
       <module name="roy-highcode-application" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="atomicreference.*" />
+          <option name="PATTERN" value="completabletest.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankCardTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="atomicreference.BankCardTest" />
+    <configuration name="TestInterrupt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="juc.testStop.TestInterrupt" />
       <module name="roy-highcode-application" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="atomicreference.*" />
+          <option name="PATTERN" value="juc.testStop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,12 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseExchange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="juc.UseExchange" />
+    <configuration name="TestSchedulePool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadpool.TestSchedulePool" />
       <module name="roy-highcode-application" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="juc.*" />
+          <option name="PATTERN" value="threadpool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,12 +202,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseSemaphore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="juc.UseSemaphore" />
+    <configuration name="ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="callback.ThreadTest" />
       <module name="roy-highcode-application" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="juc.*" />
+          <option name="PATTERN" value="callback.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,26 +215,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UseSemaphore" />
-        <item itemvalue="Application.UseExchange" />
-        <item itemvalue="Application.BankCardARTest2" />
-        <item itemvalue="Application.BankCardSyncTest1" />
-        <item itemvalue="Application.BankCardTest" />
+        <item itemvalue="Application.TestInterrupt" />
+        <item itemvalue="Application.ReentrantReadWriteLockTest1" />
+        <item itemvalue="Application.ThreadTest" />
+        <item itemvalue="Application.TestSchedulePool" />
+        <item itemvalue="Application.TestCompletableFuture3" />
       </list>
     </recent_temporary>
   </component>
@@ -320,12 +352,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/TestCompletableFuture.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/completabletest/test/TestCompletableFuture.java</url>
           <line>12</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/TestCompletableFuture.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/completabletest/test/TestCompletableFuture.java</url>
           <line>23</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -349,7 +381,37 @@
           <line>45</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/juc/fibonacci/SumTask.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/juc/fibonacci/SumTask.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/callback/ReentrantReadWriteLockTest1.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java</url>
+          <line>1281</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/roy_highcode_application$BlockQueueTest3.ic" NAME="BlockQueueTest3 Coverage Results" MODIFIED="1643737166309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>juc.blockqueue.*</FILTER>
+    </SUITE>
   </component>
 </project>
