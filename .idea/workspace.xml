@@ -23,38 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd0f8999-367f-4d52-a20a-c7fa27075282" name="Default Changelist" comment="代码演练">
-      <change afterPath="$PROJECT_DIR$/src/main/java/RedPacketTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atomicreference/AtomicIntegerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/callback/CopyOnWriteArraylistTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/callback/ReentrantReadWriteLockTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/callback/TestCallable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/completabletest/test/TestCompletableFuture2_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/countdownlatch/Testharness.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cyclibarrier/TestCycliBarrier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cyclibarrier/UseCyclicBarrier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juc/SemaphereExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juc/blockqueue/BlockQueueTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juc/blockqueue/BlockQueueTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juc/blockqueue/ReentrantLockCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juc/blockqueue/WaitNotify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juc/fibonacci/FiboNacciTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juc/fibonacci/FiboNacciTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juc/fibonacci/FibonacciTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juc/fibonacci/ForkJoinTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juc/fibonacci/SumTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juc/testStop/TestInterrupt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadpool/GetThreadResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadpool/TestSchedulePool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test1/TestThreadSeq1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testRentrance/TestLockSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testRentrance/TestMethodEscape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SmallTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/completabletest/test/SmallTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestCompletableFuture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/completabletest/test/TestCompletableFuture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestCompletableFuture1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/completabletest/test/TestCompletableFuture1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestCompletableFuture2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/completabletest/test/TestCompletableFuture2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestCompletableFuture3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/completabletest/test/TestCompletableFuture3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestCompletableFuture4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/completabletest/test/TestCompletableFuture4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestCompletableFuture5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/completabletest/test/TestCompletableFuture5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/deadLockDemo/MustDeadLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/deadLockDemo/MustDeadLockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/callback/TestCallable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/callback/TestCallable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/juc/testStop/TestInterrupt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/juc/testStop/TestInterrupt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seqthread/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seqthread/ThreadDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,11 +118,11 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="testRentrance" />
       <recent name="completabletest.test" />
       <recent name="" />
       <recent name="juc" />
       <recent name="juc.blockqueue" />
-      <recent name="facade" />
     </key>
   </component>
   <component name="RunManager" selected="Application.TestInterrupt">
@@ -163,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCompletableFuture3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="completabletest.test.TestCompletableFuture3" />
+    <configuration name="TestCallable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="callback.TestCallable" />
       <module name="roy-highcode-application" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="completabletest.test.*" />
+          <option name="PATTERN" value="callback.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,12 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSchedulePool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threadpool.TestSchedulePool" />
+    <configuration name="TestThreadSeq1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test1.TestThreadSeq1" />
       <module name="roy-highcode-application" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="threadpool.*" />
+          <option name="PATTERN" value="test1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,12 +178,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="callback.ThreadTest" />
+    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seqthread.ThreadDemo" />
       <module name="roy-highcode-application" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="callback.*" />
+          <option name="PATTERN" value="seqthread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -229,10 +205,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.TestInterrupt" />
+        <item itemvalue="Application.TestThreadSeq1" />
+        <item itemvalue="Application.ThreadDemo" />
+        <item itemvalue="Application.TestCallable" />
         <item itemvalue="Application.ReentrantReadWriteLockTest1" />
-        <item itemvalue="Application.ThreadTest" />
-        <item itemvalue="Application.TestSchedulePool" />
-        <item itemvalue="Application.TestCompletableFuture3" />
       </list>
     </recent_temporary>
   </component>
@@ -402,9 +378,9 @@
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java</url>
-          <line>129</line>
-          <option name="timeStamp" value="12" />
+          <url>file://$PROJECT_DIR$/src/main/java/callback/TestCallable.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

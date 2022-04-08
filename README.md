@@ -24,6 +24,9 @@
 |测试applyToEither的用法|completabletest.test.TestCompletableFuture4|
 |测试exceptionally的使用|completabletest.test.TestCompletableFuture5|
 |测试定时任务线程池|threadpool.TestSchedulePool|
+|测试多线程的顺序执行的三种方法|seqthread.ThreadDemo|
+|演示锁消除|testRentrance.TestMethodEscape|
+
 
 
 

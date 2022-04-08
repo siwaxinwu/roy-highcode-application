@@ -26,7 +26,8 @@ class Task implements Callable<BigDecimal>{
   public BigDecimal call() throws Exception {
     Thread.sleep(1000);
     double result = 5 + Math.random() * 5;
-    return new BigDecimal(result).setScale(2, RoundingMode.HALF_DOWN);
+    throw new Exception("ok");
+    //return new BigDecimal(result).setScale(2, RoundingMode.HALF_DOWN);
 
   }
 }
